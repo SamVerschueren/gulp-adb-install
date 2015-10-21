@@ -1,0 +1,43 @@
+{
+  "name": "gulp-adb-install",
+  "version": "0.0.0",
+  "description": "Run `adb-install` with gulp",
+  "license": "MIT",
+  "repository": "SamVerschueren/gulp-adb-install",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "gulpjs",
+    "adb",
+    "android",
+    "install",
+    "apk"
+  ],
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "gulp-util": "^3.0.7",
+    "sinon": "^1.17.1",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
