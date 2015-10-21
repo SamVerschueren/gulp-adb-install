@@ -28,11 +28,12 @@ gulp.task('install', () => {
 
 #### options
 
-##### foo
+##### replace
 
-Type: `object`
+Type: `boolean`  
+Default: `false`
 
-- **replace**: Boolean indicating if the current application that is being installed, should be replaced or not.
+`true` if you want to replace the already installed application.
 
 
 ## License
