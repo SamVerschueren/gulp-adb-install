@@ -1,6 +1,6 @@
 {
   "name": "gulp-adb-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run `adb-install` with gulp",
   "license": "MIT",
   "repository": "SamVerschueren/gulp-adb-install",
