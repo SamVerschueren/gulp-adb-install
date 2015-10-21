@@ -32,12 +32,7 @@
   "devDependencies": {
     "ava": "*",
     "gulp-util": "^3.0.7",
-    "sinon": "^1.17.1",
+    "mock-spawn": "^0.2.6",
     "xo": "*"
-  },
-  "xo": {
-    "ignores": [
-      "test.js"
-    ]
   }
 }
